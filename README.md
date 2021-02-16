@@ -16,3 +16,10 @@ Nuggets for use with OpenSSL
     (because the user chose to search along CMAKE_PREFIX_PATH).
 
     It's self-documented.
+
+-   perl/lib/WrapOpenSSL.pm
+
+    A plugin for App::Prove, the harness application ('prove') to be
+    used to run Test::More, Test2::Suite and similar test suites.  It
+    works best in conjunction with the cmake module above.
+
